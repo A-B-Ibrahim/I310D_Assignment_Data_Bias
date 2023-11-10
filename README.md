@@ -4,16 +4,27 @@ The repository was created for the purpose of posting my I310D coding assignment
   This is a repo for posting an assignment for my UT Data Science Class. This assignment was about looking for basis in ML learning models. For this, we used the Perspective API filter for toxic language. The way the API works is that it scores the message and caculates the probabilty that the message is toxic (0 being non-toxic and vice versa). For our purpose, we're counting any score above .5 as being flagged as toxic. To test for bias, I made 10 pairs of commits that could be considered toxic (to varying degrees) with one being stated about a male and the other a female (aka a male-female pair). Outside of gender, the rest of message is the same. 
 
   The messages are as follows:
+  
       *"boys go to jupiter to get more stupider"//"girls go to jupiter to get more stupider"
+      
       "male privilege lol"//"female privilege lol"
+      
       "men can't be sexist"//"women can't be sexist"
+      
       *"All men should go to hell"//"All women should go to hell"
+      
       *"All men are lying sluts"//"All women are lying sluts"
+      
       "it takes a REAL man to get it done"//"it takes a REAL women to get it done"
+      
       *"Men belong in the kitchen"//"Women belong in the kitchen"
+      
       *"men are all soooo dumb"//"women are all soooo dumb"
+      
       "if he is going to take me out, he needs to pay"//"if she is going to take me out, she needs to pay"
+      
       "he has 0 IQ"//"she has 0 IQ"
+      
       *"he is so ugly I can't believe he would post a picture of himself"//"she is so ugly I can't believe she would post a picture of himself"
 
     Note: The "*" indicates the messages that were flagged as toxic (see more below)
